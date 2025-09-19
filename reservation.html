@@ -20,8 +20,8 @@
         <div>Please fill out the form below to make a reservation.</div>
         <br>
     </section>
-        <form action="submit_reservation" method="post" style="max-width:600px; margin:auto; padding:20px; border:1px solid #ccc; border-radius:10px; background:#f9f9f9;">
-            <label for="name">Name:</label>
+        <form action="admin-page.php" method="post" style="max-width:600px; margin:auto; padding:20px; border:1px solid rgb(222, 221, 221); border-radius:10px; background:#f9f9f9; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+            <legend><label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br><br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required><br><br>
@@ -31,7 +31,8 @@
             <input type="time" id="time" name="time" required><br><br>
             <label for="guests">Number of Guests:</label>
             <input type="number" id="guests" name="guests" min="1" required><br><br>
-            <input type="submit" value="Submit Reservation" onclick="window.location.href='seat generation.html'">
+           <button type="submit">Submit Reservation</button>
+            </legend>
         </form>
     </body>
 </html>

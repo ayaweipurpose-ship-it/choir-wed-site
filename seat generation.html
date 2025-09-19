@@ -19,22 +19,21 @@
     </head>
     <body>
        <div id="seat"> 
-        <form action="submit_reservation" id="lightblue" method="post" style="max-width:600px; margin:auto; padding:20px; border:1px solid #ccc; border-radius:10px; background:#f9f9f9;">
-            <label for="name">Name:</label>
-            <input type="text"  name="name" required> 
-             <label>
-    <input type="radio" name="gender" value="male"> Male
-  </label>
-  <label>
-    <input type="radio" name="gender" value="female"> Female
-  </label>
-  <br>
-    <label>
-        optional
-    </label>
-    <br>
-    <label for="guests">age:</label>
+        <form action="admin page.php" id="lightblue" method="post" style="max-width:600px; margin:auto; padding:20px; border:1px solid #ccc; border-radius:10px; background:#f9f9f9;">
+      <label for="name">Name:</label>
+      <input type="text"  name="name" required> 
+      <label>
+      <input type="radio" name="gender" value="male"> Male
+      </label>
+      <label>
+      <input type="radio" name="gender" value="female"> Female
+      </label>
+      <br>
+      <label>optional</label>
+      <br>
+      <label for="guests">age:</label>
             <input type="number" id="guests" name="guests" min="15" required><br><br>
+            <input type="submit" value="Submit Reservation" >
 </div>
     </body>
  </html>
